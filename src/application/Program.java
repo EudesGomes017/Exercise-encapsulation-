@@ -23,9 +23,9 @@ public class Program {
         System.out.print("Is there an initial deposit (y/n)? ");
         char response = sc.next().charAt(0);
         if (response == 'y') {
-            System.out.print("Enter initial deposit value: ");
-            double initialDeposit = sc.nextDouble();
-            account = new Account(number, holder, initialDeposit);
+        System.out.print("Enter initial deposit value: ");
+        double initialDeposit = sc.nextDouble();
+        account = new Account(number, holder, initialDeposit);
 
         }
         else {
